@@ -1,0 +1,7 @@
+frase = input('Digite uma frase: ').strip().upper()
+a = frase.count('A')
+posicao = frase.find('A')
+ultimaPosicao = frase.rfind('A')
+print('Sua frase tem {} letras ´A´ !'.format(a))
+print('A primeira letra ´A´ aparece na posição {} da string!'.format(posicao))
+print('A ultima letra ´A´ aparece na posição {} da string!'.format(ultimaPosicao))
